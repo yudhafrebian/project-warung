@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+a, li, h1, h2 {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #A5B68D;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FCFAEE;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ECDFCC;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    height: 100%;
+}
+
+.logo {
+    height: 180px;
+    width: 180px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #A5B68D;
+}
+
+a:hover {
+    color: #7e8f67;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+
+main {
+    background-color: #FCFAEE;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.heading {
+    padding-top: 90px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.heading>h1 {
+    margin-bottom: 20px;
+    color: #DA8359;
+}
+
+hr {
+    width: 75%;
+    height: 4px;
+    background-color: #DA8359;
+    border-radius: 20px;
+}
+
+.container {
+    margin: 50px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.section-1 {
+    background-color: #ECDFCC;
+    border-radius: 20px;
+    padding: 10px;
+    width: 75%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.section-2 {
+    background-color: #ECDFCC;
+    border-radius: 20px;
+    padding: 10px;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 50px;
+    float: right;
+}
+
+.section-3 {
+    background-color: #ECDFCC;
+    border-radius: 20px;
+    padding: 10px;
+    width: 75%;
+    text-align: center;
+    float: left;
+}
+
+.section-1>h2, .section-2>h2, .section-3 > h2 {
+    color: #DA8359;
+}
+
+footer {
+    background-color: #DA8359;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+footer>p {
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+}
